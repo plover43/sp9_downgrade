@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="firmware">
+	<id>com.surfacelinux.firmware.f914f92a-9061-4f1a-95a5-edccd5ce0e09</id>
+	<provides>
+		<firmware type="flashed">f914f92a-9061-4f1a-95a5-edccd5ce0e09</firmware>
+	</provides>
+	<name>Surface Firmware</name>
+	<summary>Firmware for f914f92a-9061-4f1a-95a5-edccd5ce0e09</summary>
+	<description>
+		<p>Updating the firmware on your device improves performance and adds new features.</p>
+	</description>
+	<categories>
+		<category>X-System</category>
+	</categories>
+	<custom>
+		<value key="LVFS::UpdateProtocol">org.uefi.capsule</value>
+	</custom>
+	<url type="homepage">https://www.microsoft.com</url>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>proprietary</project_license>
+	<developer_name>Microsoft</developer_name>
+	<releases>
+		<release version="9.0.3215" timestamp="1665115200">
+			<description>
+				<p>Please visit the Microsoft homepage to find more information about this update.</p>
+				<p>The computer will be restarted automatically after updating completely. Do NOT turn off your computer or remove the AC adaptor while update is in progress.</p>
+			</description>
+		</release>
+	</releases>
+</component>
